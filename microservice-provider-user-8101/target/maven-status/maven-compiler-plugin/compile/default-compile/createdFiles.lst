@@ -1,0 +1,5 @@
+com\syl\dao\UserDao.class
+com\syl\controller\UserController.class
+com\syl\service\UserService.class
+com\syl\MicroServiceProvider8101Application.class
+com\syl\service\impl\UserServiceImpl.class

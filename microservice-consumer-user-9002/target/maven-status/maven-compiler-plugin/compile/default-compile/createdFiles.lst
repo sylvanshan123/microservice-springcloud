@@ -1,0 +1,4 @@
+com\syl\service\fallback\UserFeignFallback.class
+com\syl\service\UserFeignService.class
+com\syl\controller\UserRibbonController.class
+com\syl\MicroServiceConsumerUser9002Application.class

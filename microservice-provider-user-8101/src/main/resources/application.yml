@@ -1,0 +1,23 @@
+server:
+  port: 8101
+
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/db02?useUnicode=true&characterEncoding=utf8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+  application:
+    name: provider-user
+  zipkin:
+    base-url: http://localhost:9441
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+    instance:
+      instance-id: microservice-user8101
+      prefer-id-address: true
